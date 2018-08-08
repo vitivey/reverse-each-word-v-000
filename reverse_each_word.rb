@@ -6,6 +6,7 @@ def reverse_each_word(string)
     #new_array.push(word.reverse)    USE THESE COMMENTED LINES FOR .each METHOD
     puts word.reverse
   end
+  puts array
   array.join(" ")
   #new_array.join(" ")
 end
