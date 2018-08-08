@@ -1,3 +1,5 @@
+require 'pry'
+
 def reverse_each_word(string)
   array = string.split
   #new_array=[]
@@ -8,3 +10,5 @@ def reverse_each_word(string)
   array.join(" ")
   #new_array.join(" ")
 end
+reverse_each_word(string)
+binding.pry
