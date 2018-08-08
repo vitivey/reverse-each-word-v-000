@@ -12,4 +12,3 @@ def reverse_each_word(string)
   binding.pry
 end
 reverse_each_word(string)
-
